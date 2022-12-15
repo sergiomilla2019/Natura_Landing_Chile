@@ -1,0 +1,22 @@
+.orangeLine:after {
+  background-color: #f93;
+  content: "";
+  display: block;
+  height: 0.125rem;
+  margin: 0.5rem auto 0;
+  width: 3.75rem;
+}
+
+.cardText {
+  color: #333333;
+  height: auto;
+  display: -webkit-box;
+  overflow: hidden;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+
+.card2Text{
+  font-weight: bold;
+}
