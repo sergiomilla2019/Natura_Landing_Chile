@@ -53,7 +53,7 @@ const index = () => {
           style={{ width: "100%", objectFit: "cover", height: "auto" }}
         />
       </Box>
-      <Form />
+      <Form path="/conexiones-reales" />
       <Box
         sx={{ padding: "40px 0", width: "100%", backgroundColor: "#f5f5f5" }}
       >
@@ -345,7 +345,7 @@ const index = () => {
                   position="absolute"
                 >
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fmeditacion-5-desafios-comunes-y-como-superarlos"
                     sx={{
                       border: ".5px solid #fff",
@@ -357,7 +357,7 @@ const index = () => {
                     <FacebookIcon sx={{ color: "#fff" }} />
                   </Link>
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://www.twitter.com/share?text=MEDITACI%C3%93N:%205%20DESAF%C3%8DOS%20COMUNES%20Y%20C%C3%93MO%20SUPERARLOS&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fmeditacion-5-desafios-comunes-y-como-superarlos&via=natura_chile"
                     sx={{
                       border: ".5px solid #fff",
@@ -467,7 +467,7 @@ const index = () => {
                   position="absolute"
                 >
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fpiel%2Fpaso-a-paso-para-una-rutina-de-skincare"
                     sx={{
                       border: ".5px solid #fff",
@@ -479,7 +479,7 @@ const index = () => {
                     <FacebookIcon sx={{ color: "#fff" }} />
                   </Link>
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://twitter.com/share?text=PASO%20A%20PASO%20PARA%20UNA%20RUTINA%20DE%20SKINCARE&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fpiel%2Fpaso-a-paso-para-una-rutina-de-skincare&via=natura_chile"
                     sx={{
                       border: ".5px solid #fff",
@@ -589,7 +589,7 @@ const index = () => {
                   position="absolute"
                 >
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fmeditacion-natura-conoce-nuestra-app-para-meditar"
                     sx={{
                       border: ".5px solid #fff",
@@ -601,7 +601,7 @@ const index = () => {
                     <FacebookIcon sx={{ color: "#fff" }} />
                   </Link>
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://twitter.com/share?text=MEDITACI%C3%93N%20NATURA:%20CONOCE%20NUESTRA%20APP%20PARA%20MEDITAR&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fmeditacion-natura-conoce-nuestra-app-para-meditar&via=natura_chile"
                     sx={{
                       border: ".5px solid #fff",

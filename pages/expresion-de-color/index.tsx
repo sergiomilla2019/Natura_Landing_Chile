@@ -58,7 +58,7 @@ const index = () => {
           style={{ width: "100%", objectFit: "cover", height: "auto" }}
         />
       </Box>
-      <Form />
+      <Form path="/expresion-de-color" />
       <Box
         sx={{ padding: "40px 0", width: "100%", backgroundColor: "#f5f5f5" }}
       >
@@ -71,12 +71,14 @@ const index = () => {
           PRODUCTOS PARA DESCUBRIR
         </Typography>
 
-        <Box sx={{
+        <Box
+          sx={{
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "center",
             alignItems: "center",
-          }}>
+          }}
+        >
           <Box
             sx={{
               margin: "25px 5px",
@@ -566,12 +568,14 @@ const index = () => {
           #IDEASPARACOMPARTIR
         </Typography>
 
-        <Box sx={{
+        <Box
+          sx={{
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "center",
             alignItems: "center",
-          }}>
+          }}
+        >
           <Box
             sx={{
               margin: "40px 30px",
@@ -602,7 +606,7 @@ const index = () => {
                   position="absolute"
                 >
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmaquillaje%2Fsuaves-dimensiones"
                     sx={{
                       border: ".5px solid #fff",
@@ -614,7 +618,7 @@ const index = () => {
                     <FacebookIcon sx={{ color: "#fff" }} />
                   </Link>
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://twitter.com/share?text=SUAVES%20DIMENSIONES&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmaquillaje%2Fsuaves-dimensiones&via=natura_chile"
                     sx={{
                       border: ".5px solid #fff",
@@ -724,7 +728,7 @@ const index = () => {
                   position="absolute"
                 >
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fluz-azul-que-es-y-como-proteger-la-piel-de-sus-efectos"
                     sx={{
                       border: ".5px solid #fff",
@@ -736,7 +740,7 @@ const index = () => {
                     <FacebookIcon sx={{ color: "#fff" }} />
                   </Link>
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://twitter.com/share?text=LUZ%20AZUL:%20QU%C3%89%20ES%20Y%20C%C3%93MO%20PROTEGER%20LA%20PIEL%20DE%20SUS%20EFECTOS&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fluz-azul-que-es-y-como-proteger-la-piel-de-sus-efectos&via=natura_chile"
                     sx={{
                       border: ".5px solid #fff",
@@ -847,7 +851,7 @@ const index = () => {
                   position="absolute"
                 >
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmaquillaje%2Fcomo-comprar-maquillaje-por-internet-sin-errores"
                     sx={{
                       border: ".5px solid #fff",
@@ -859,7 +863,7 @@ const index = () => {
                     <FacebookIcon sx={{ color: "#fff" }} />
                   </Link>
                   <Link
-                  target="_blank"
+                    target="_blank"
                     href="https://twitter.com/intent/tweet?text=C%C3%93MO%20COMPRAR%20MAQUILLAJE%20POR%20INTERNET%20SIN%20ERRORES&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmaquillaje%2Fcomo-comprar-maquillaje-por-internet-sin-errores&via=natura_chile"
                     sx={{
                       border: ".5px solid #fff",

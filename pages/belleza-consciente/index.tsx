@@ -56,7 +56,7 @@ const index = () => {
           style={{ width: "100%", objectFit: "cover", height: "auto" }}
         />
       </Box>
-      <Form />
+      <Form path="/belleza-consciente"/>
       <Box
         sx={{ padding: "40px 0", width: "100%", backgroundColor: "#f5f5f5" }}
       >
