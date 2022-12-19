@@ -61,6 +61,7 @@ export const Form = ({ path }: Props) => {
           utm_source,
         }),
       });
+      //console.log(response);
       window.location.assign("https://www.natura.cl/");
     } catch (error) {
       console.log("Front error: ", error);
