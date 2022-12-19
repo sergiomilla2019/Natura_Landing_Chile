@@ -60,8 +60,8 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
         PERSON_NAME: nombre,
         PERSON_SURNAME: apellido,
         FECHA_NACIMIENTO: fecha,
-        "OK PROMOCIONES": check1,
-        "OK MAYOR EDAD": check2,
+        "OK PROMOCIONES": check1 ? "Yes" : "No",
+        "OK MAYOR EDAD": check2 ? "Yes" : "No",
         EMAIL: email,
         UTM_MEDIUM: utm_medium,
         UTM_SOURCE: utm_source,
@@ -80,7 +80,7 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
         Authorization: `Bearer ${token}`,
       },
     });
-
+    // return res.redirect(307, "https://www.natura.cl/");
     res.status(200).json({ message: "Correcto" });
   } catch (err: any) {
     res.status(500).json({ message: err.response.data });

@@ -11,7 +11,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const URL = `https://${process.env.SUBDOMAIN}.rest.marketingcloudapis.com/hub/v1/dataevents/key:${process.env.DATA_EXTENSION_KEY_BC}/rowset`;
+const URL = `https://${process.env.SUBDOMAIN}.rest.marketingcloudapis.com/hub/v1/dataevents/key:${process.env.DATA_EXTENSION_KEY_EDC}/rowset`;
 
 interface bodyReq {
   email: string;
@@ -59,8 +59,8 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
         PERSON_NAME: nombre,
         PERSON_SURNAME: apellido,
         FECHA_NACIMIENTO: fecha,
-        "OK PROMOCIONES": check1,
-        "OK MAYOR EDAD": check2,
+        "OK PROMOCIONES": check1 ? 'Yes' : 'No',
+        "OK MAYOR EDAD": check2 ? 'Yes' : 'No',
         EMAIL: email,
         UTM_MEDIUM: utm_medium,
         UTM_SOURCE: utm_source,
@@ -72,7 +72,6 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
     if (!token) {
       return res.status(500).json({ message: "no hay token" });
     }
-    console.log("pase response");
     const response: AxiosResponse = await axios.post(URL, dataBody, {
       headers: {
         Authorization: `Bearer ${token}`,

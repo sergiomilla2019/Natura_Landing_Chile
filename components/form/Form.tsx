@@ -115,6 +115,7 @@ export const Form = ({ path }: Props) => {
                 {...register("nombre", {
                   required: "Este campo es requerido...",
                 })}
+                required
               />
               <Typography align="left" variant="body2">
                 APELLIDO
@@ -127,6 +128,7 @@ export const Form = ({ path }: Props) => {
                 {...register("apellido", {
                   required: "Este campo es requerido...",
                 })}
+                required
               />
               <Typography align="left" variant="body2">
                 E-MAIL
@@ -139,6 +141,7 @@ export const Form = ({ path }: Props) => {
                 {...register("email", {
                   required: "Este campo es requerido...",
                 })}
+                required
               />
               <Typography
                 sx={{ marginBottom: "5px" }}
@@ -154,7 +157,7 @@ export const Form = ({ path }: Props) => {
                     setfecha(newValue);
                   }}
                   renderInput={(params) => (
-                    <TextField sx={{ width: "100%" }} {...params} />
+                    <TextField sx={{ width: "100%" }} {...params} required/>
                   )}
                 />
               </LocalizationProvider>
@@ -170,7 +173,7 @@ export const Form = ({ path }: Props) => {
                         color: "#f93",
                       },
                     }}
-                    {...register("check1")}
+                    {...register("check1")}                    
                   />
                 }
                 label="Deseo recibir promociones y noticias de Natura por e-mail y SMS"
@@ -190,6 +193,7 @@ export const Form = ({ path }: Props) => {
                     {...register("check2", {
                       required: "Este campo es requerido...",
                     })}
+                    required
                   />
                 }
                 label="Confirmo ser mayor de 18 años y estoy de acuerdo con la Política de Privacidad y Condiciones de Uso."
