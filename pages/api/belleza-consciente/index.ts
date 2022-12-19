@@ -7,6 +7,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 import { fileURLToPath } from "url";
+import { NextResponse } from "next/server";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -48,7 +49,7 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
     check2,
     utm_medium,
     utm_source,
-  }: bodyReq = req.body;
+  }: bodyReq = JSON.parse(req.body);
 
   const dataBody = [
     {
@@ -80,7 +81,6 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
       },
     });
 
-    // res.redirect(307, "https://www.natura.cl/");
     res.status(200).json({ message: "Correcto" });
   } catch (err: any) {
     res.status(500).json({ message: err.response.data });

@@ -8,6 +8,10 @@ import {
   Typography,
   Link,
 } from "@mui/material";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { Dayjs } from "dayjs";
 
 import { useForm } from "react-hook-form";
 
@@ -16,6 +20,7 @@ import { AxiosResponse } from "axios";
 import style from "../../styles/ColorExpresion.module.css";
 import tesloApi from "../../api/tesloApi";
 import { useRouter } from "next/router";
+import { useState } from "react";
 
 interface Props {
   path: string;
@@ -32,6 +37,7 @@ type FormData = {
 
 export const Form = ({ path }: Props) => {
   const router = useRouter();
+  const [fecha, setfecha] = useState<Dayjs | null>(null);
   const { utm_medium, utm_source } = router.query;
   const {
     register,
@@ -41,38 +47,40 @@ export const Form = ({ path }: Props) => {
 
   const OnSendData = async (data: FormData) => {
     const { email, nombre, apellido, fecha, check1, check2 } = data;
+    try {
+      const response = await fetch(`/api/${path}`, {
+        method: "POST",
+        body: JSON.stringify({
+          email,
+          nombre,
+          apellido,
+          fecha,
+          check1,
+          check2,
+          utm_medium,
+          utm_source,
+        }),
+      });
+      console.log(response);
+    } catch (error) {
+      console.log("Front error: ", error);
+    }
 
-    //   const response = await fetch(`/api/${path}`, {
-    //     method: "POST",
-    //     body: JSON.stringify({
-    //       email,
-    //       nombre,
-    //       apellido,
-    //       fecha,
-    //       check1,
-    //       check2,
-    //     }),
-    //   });
-    //   console.log(response);
-    // } catch (error) {
-    //   console.log("Front error: ", error);
-    // }
-
-     try {
-       const response: AxiosResponse = await tesloApi.post(path, {
-         email,
-         nombre,
-         apellido,
-         fecha,
-         check1,
-         check2,
-         utm_medium,
-         utm_source,
-       });
-       console.log(response);
-     } catch (error) {
-       console.log("Front error: ",error);
-     }
+    //  try {
+    //    const response: AxiosResponse = await tesloApi.post(path, {
+    //      email,
+    //      nombre,
+    //      apellido,
+    //      fecha,
+    //      check1,
+    //      check2,
+    //      utm_medium,
+    //      utm_source,
+    //    });
+    //    console.log(response);
+    //  } catch (error) {
+    //    console.log("Front error: ",error);
+    //  }
   };
 
   return (
@@ -132,20 +140,26 @@ export const Form = ({ path }: Props) => {
                   required: "Este campo es requerido...",
                 })}
               />
-              <Typography align="left" variant="body2">
+              <Typography
+                sx={{ marginBottom: "5px" }}
+                align="left"
+                variant="body2"
+              >
                 FECHA DE NACIMIENTO
               </Typography>
-              <TextField
-                sx={{ marginBottom: "25px" }}
-                fullWidth
-                id="fecha"
-                variant="outlined"
-                {...register("fecha", {
-                  required: "Este campo es requerido...",
-                })}
-              />
+              <LocalizationProvider dateAdapter={AdapterDayjs}>
+                <DatePicker
+                  value={fecha}
+                  onChange={(newValue) => {
+                    setfecha(newValue);
+                  }}
+                  renderInput={(params) => (
+                    <TextField sx={{ width: "100%" }} {...params} />
+                  )}
+                />
+              </LocalizationProvider>
               <FormControlLabel
-                sx={{ marginBottom: "25px", width: "100%" }}
+                sx={{ marginBottom: "25px", width: "100%", marginTop: "25px" }}
                 control={
                   <Checkbox
                     id="check1"
