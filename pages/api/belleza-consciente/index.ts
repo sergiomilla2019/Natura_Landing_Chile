@@ -1,5 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
+import NextCors from "nextjs-cors";
+
 import axios, { AxiosError, AxiosResponse } from "axios";
 import gettoken from "../../../utils/getToken";
 import path from "path";
@@ -40,6 +42,12 @@ export default function handler(
 }
 
 const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
+  await NextCors(req, res, {
+    // Options
+    methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"],
+    origin: "*",
+    optionsSuccessStatus: 200,
+  });
   const {
     email,
     nombre,
@@ -80,8 +88,9 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
         Authorization: `Bearer ${token}`,
       },
     });
+    res.redirect(302, "/Thanks");
     // return res.redirect(307, "https://www.natura.cl/");
-    res.status(200).json({ message: "Correcto" });
+    // res.status(200).json({ message: "Correcto" });
   } catch (err: any) {
     res.status(500).json({ message: err.response.data });
   }

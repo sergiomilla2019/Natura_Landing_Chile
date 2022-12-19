@@ -61,7 +61,7 @@ export const Form = ({ path }: Props) => {
           utm_source,
         }),
       });
-      console.log(response);
+      window.location.assign("https://www.natura.cl/");
     } catch (error) {
       console.log("Front error: ", error);
     }
@@ -157,7 +157,7 @@ export const Form = ({ path }: Props) => {
                     setfecha(newValue);
                   }}
                   renderInput={(params) => (
-                    <TextField sx={{ width: "100%" }} {...params} required/>
+                    <TextField sx={{ width: "100%" }} {...params} required />
                   )}
                 />
               </LocalizationProvider>
@@ -173,7 +173,7 @@ export const Form = ({ path }: Props) => {
                         color: "#f93",
                       },
                     }}
-                    {...register("check1")}                    
+                    {...register("check1")}
                   />
                 }
                 label="Deseo recibir promociones y noticias de Natura por e-mail y SMS"
