@@ -178,6 +178,7 @@ const index = () => {
                     "&:hover": { borderColor: "rgb(255,124,52)" },
                   }}
                   variant="outlined"
+                  href="https://www.natura.cl/p/mascarilla-exfoliante-reductora-de-poros-faces-50ml/85003cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=1"
                 >
                   COMPRAR
                 </Button>
@@ -288,6 +289,7 @@ const index = () => {
                     "&:hover": { borderColor: "rgb(255,124,52)" },
                   }}
                   variant="outlined"
+                  href="https://www.natura.cl/p/hidratante-facial-aclarador-fps-15-piel-oleosa-faces-50ml/91821cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=3"
                 >
                   COMPRAR
                 </Button>

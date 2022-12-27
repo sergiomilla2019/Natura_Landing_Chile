@@ -183,6 +183,7 @@ const index = () => {
                     "&:hover": { borderColor: "rgb(255,124,52)" },
                   }}
                   variant="outlined"
+                  href="https://www.natura.cl/p/labial-cremoso-faces-3%2C5g/3699cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=1%3Fcolor%3DRosa%20Crush"
                 >
                   COMPRAR
                 </Button>
@@ -306,6 +307,7 @@ const index = () => {
                     "&:hover": { borderColor: "rgb(255,124,52)" },
                   }}
                   variant="outlined"
+                  href="https://www.natura.cl/p/repuesto-shampoo-reestructurante-cabello-quimicamente-danado-lumina-300ml/86940cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=2"
                 >
                   COMPRAR
                 </Button>
@@ -416,6 +418,7 @@ const index = () => {
                     "&:hover": { borderColor: "rgb(255,124,52)" },
                   }}
                   variant="outlined"
+                  href="https://www.natura.cl/p/hidratante-facial-aclarador-fps-15-piel-oleosa-faces-50ml/91821cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=3"
                 >
                   COMPRAR
                 </Button>

@@ -181,6 +181,7 @@ const index = () => {
                     "&:hover": { borderColor: "rgb(255,124,52)" },
                   }}
                   variant="outlined"
+                  href="https://www.natura.cl/p/tonico-capilar-pataua-ekos-30ml/73189cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=1"
                 >
                   COMPRAR
                 </Button>
@@ -265,6 +266,7 @@ const index = () => {
                     "&:hover": { borderColor: "rgb(255,124,52)" },
                   }}
                   variant="outlined"
+                  href="https://www.natura.cl/p/jabon-liquido-exfoliante-corporal-ekos-acai-185-ml/97261cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=2"
                 >
                   COMPRAR
                 </Button>
@@ -375,6 +377,7 @@ const index = () => {
                     "&:hover": { borderColor: "rgb(255,124,52)" },
                   }}
                   variant="outlined"
+                  href="https://www.natura.cl/p/aceite-trifasico-corporal-maracuya-ekos-200ml/82442cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=3"
                 >
                   COMPRAR
                 </Button>
@@ -490,7 +493,7 @@ const index = () => {
                     "&:hover": { borderColor: "rgb(255,124,52)" },
                   }}
                   variant="outlined"
-                >
+                  href="https://www.natura.cl/p/aceite-trifasico-corporal-maracuya-ekos-200ml/82442cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=3">
                   COMPRAR
                 </Button>
               </CardActions>
