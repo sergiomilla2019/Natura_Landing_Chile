@@ -24,24 +24,19 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import style from "../../styles/ColorExpresion.module.css";
 
 import { Form } from "../../components/form";
-import banner from "../../public/images/expresionColorBanner.png";
-import bannerOrange from "../../public/images/expresionColorBannerOrange.jpg";
-import card_1_1 from "../../public/images/expresionColorCard1_1.jpg";
-import card_1_2 from "../../public/images/expresionColorCard1_2.jpg";
-import card_2 from "../../public/images/expresionColorCard2_1.jpg";
-import card_3_1 from "../../public/images/expresionColorCard3_1.jpg";
-import card_3_2 from "../../public/images/expresionColorCard3_2.jpg";
-import card_4_1 from "../../public/images/expresionColorCard4_1.jpg";
-import card_4_2 from "../../public/images/expresionColorCard4_2.jpg";
-import card_5 from "../../public/images/expresionColorCard5.jpg";
-import card_6 from "../../public/images/expresionColorCard6.jpg";
-import card_7 from "../../public/images/expresionColorCard7.jpg";
+import banner from "../../public/images/realConextion_banner.jpg";
+import bannerOrange from "../../public/images/realConextion_bannerOrange.jpg";
+import card_1_1 from "../../public/images/realConextion_Card_1_1.jpg";
+import card_1_2 from "../../public/images/realConextion_Card_1_2.jpg";
+import card_2_1 from "../../public/images/realConextion_Card_2_1.jpg";
+import card_2_2 from "../../public/images/realConextion_Card_2_2.jpg";
+import card_3 from "../../public/images/realConextion_Card_3.jpg";
+import card_4 from "../../public/images/realConextion_Card_4.jpg";
+import card_5 from "../../public/images/realConextion_Card_5.jpg";
 
 const index = () => {
   const [card1, setcard1] = useState(false);
-  const [card3, setcard3] = useState(false);
-  const [card4, setcard4] = useState(false);
-
+  const [card2, setcard2] = useState(false);
   return (
     <>
       <Box sx={{ width: "100%" }}>
@@ -58,7 +53,7 @@ const index = () => {
           style={{ width: "100%", objectFit: "cover", height: "auto" }}
         />
       </Box>
-      <Form path="/expresion-de-color" />
+      <Form path="/conexiones-reales" />
       <Box
         sx={{ padding: "40px 0", width: "100%", backgroundColor: "#f5f5f5" }}
       >
@@ -81,7 +76,7 @@ const index = () => {
         >
           <Box
             sx={{
-              margin: "25px 5px",
+              margin: "25px 20px",
               display: "flex",
               justifyContent: "center",
             }}
@@ -92,7 +87,7 @@ const index = () => {
                 onMouseEnter={() => setcard1(true)}
                 onMouseLeave={() => setcard1(false)}
               >
-                <Link href="https://www.natura.cl/p/labial-cremoso-faces-3%2C5g/3699cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=1%3Fcolor%3DRosa%20Crush">
+                <Link href="https://www.natura.cl/p/mascarilla-exfoliante-reductora-de-poros-faces-50ml/85003cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=1">
                   <Image
                     style={{
                       display: card1 ? "none" : "block",
@@ -116,16 +111,12 @@ const index = () => {
                   sx={{
                     top: "0",
                     display: "flex",
-                    justifyContent: "space-between",
+                    justifyContent: "flex-end",
                     width: "100%",
                     padding: "1rem",
                   }}
                   position="absolute"
                 >
-                  <Chip
-                    label="Lleva 2 y paga 1"
-                    sx={{ background: "rgb(234, 110, 200)", color: "#fff" }}
-                  />
                   <IconButton size="large">
                     <FavoriteBorderOutlinedIcon />
                   </IconButton>
@@ -152,16 +143,20 @@ const index = () => {
                       <StarIcon sx={{ color: "#ffb74d" }} />
                     </IconButton>
                     <Typography color="#777777" variant="body2">
-                      5.0
+                      4.0
                     </Typography>
                   </Box>
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/p/labial-cremoso-faces-3%2C5g/3699cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=1%3Fcolor%3DRosa%20Crush"
+                  href="https://www.natura.cl/p/mascarilla-exfoliante-reductora-de-poros-faces-50ml/85003cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=1"
                 >
-                  <Typography className={`${style.cardText}`} variant="body1">
-                    Labial Cremoso Natura Faces
+                  <Typography
+                    sx={{ fontWeight: "700" }}
+                    className={`${style.cardText}`}
+                    variant="body1"
+                  >
+                    Máscara Facial Exfoliante Reductora de Poros Natura Faces
                   </Typography>
                 </Link>
                 <Typography
@@ -169,7 +164,7 @@ const index = () => {
                   variant="body1"
                   color="#333333"
                 >
-                  $3.990
+                  $5.990
                 </Typography>
               </CardContent>
               <CardActions>
@@ -183,7 +178,7 @@ const index = () => {
                     "&:hover": { borderColor: "rgb(255,124,52)" },
                   }}
                   variant="outlined"
-                  href="https://www.natura.cl/p/labial-cremoso-faces-3%2C5g/3699cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=1%3Fcolor%3DRosa%20Crush"
+                  href="https://www.natura.cl/p/mascarilla-exfoliante-reductora-de-poros-faces-50ml/85003cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=1"
                 >
                   COMPRAR
                 </Button>
@@ -192,131 +187,7 @@ const index = () => {
           </Box>
           <Box
             sx={{
-              margin: "25px 5px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <Card sx={{ maxWidth: 300 }}>
-              <Box position="relative">
-                <Link
-                  underline="none"
-                  href="https://www.natura.cl/p/repuesto-shampoo-reestructurante-cabello-quimicamente-danado-lumina-300ml/86940cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=2"
-                >
-                  <Image
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                    }}
-                    alt="card1"
-                    src={card_2}
-                  />
-                </Link>
-                <Box
-                  sx={{
-                    top: "0",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    width: "100%",
-                    padding: "1rem",
-                  }}
-                  position="absolute"
-                >
-                  <Chip
-                    label="Vegano"
-                    sx={{ background: "rgb(125, 229, 37)", color: "#fff" }}
-                  />
-                  <IconButton size="large">
-                    <FavoriteBorderOutlinedIcon />
-                  </IconButton>
-                </Box>
-              </Box>
-              <CardContent sx={{ height: "200px" }}>
-                <Box
-                  sx={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <Typography color="#777777" variant="body2">
-                    LUMINA
-                  </Typography>
-                  <Box
-                    sx={{
-                      display: "flex",
-                      alignItems: "center",
-                    }}
-                  >
-                    <IconButton size="large">
-                      <StarIcon sx={{ color: "#ffb74d" }} />
-                    </IconButton>
-                    <Typography color="#777777" variant="body2">
-                      4.5
-                    </Typography>
-                  </Box>
-                </Box>
-                <Box sx={{ height: "2.625rem" }}>
-                  <Link
-                    underline="none"
-                    href="https://www.natura.cl/p/repuesto-shampoo-reestructurante-cabello-quimicamente-danado-lumina-300ml/86940cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=2"
-                  >
-                    <Typography className={`${style.cardText}`} variant="body1">
-                      Repuesto Shampoo reestructurante Cabello Químicamente
-                      Dañado
-                    </Typography>
-                  </Link>
-                </Box>
-                <Box sx={{ display: "flex", alignItems: "flex-end" }}>
-                  <Typography
-                    sx={{
-                      marginTop: "15px",
-                      textDecoration: "line-through",
-                      marginRight: "5px",
-                    }}
-                    variant="body1"
-                    color="#777777"
-                  >
-                    $4.990
-                  </Typography>
-                  <Chip
-                    size="small"
-                    label="-20%"
-                    sx={{
-                      background: "rgb(244, 171, 52)",
-                      color: "rgb(51, 51, 51)",
-                    }}
-                  />
-                </Box>
-                <Typography
-                  sx={{ fontWeight: "bold" }}
-                  variant="body1"
-                  color="#333333"
-                >
-                  $3.990
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button
-                  fullWidth
-                  sx={{
-                    margin: "0 10px",
-                    borderColor: "#f93",
-                    color: "#333333",
-                    fontWeight: "bold",
-                    "&:hover": { borderColor: "rgb(255,124,52)" },
-                  }}
-                  variant="outlined"
-                  href="https://www.natura.cl/p/repuesto-shampoo-reestructurante-cabello-quimicamente-danado-lumina-300ml/86940cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=2"
-                >
-                  COMPRAR
-                </Button>
-              </CardActions>
-            </Card>
-          </Box>
-          <Box
-            sx={{
-              margin: "25px 5px",
+              margin: "25px 20px",
               display: "flex",
               justifyContent: "center",
             }}
@@ -324,27 +195,27 @@ const index = () => {
             <Card sx={{ maxWidth: 300 }}>
               <Box
                 position="relative"
-                onMouseEnter={() => setcard3(true)}
-                onMouseLeave={() => setcard3(false)}
+                onMouseEnter={() => setcard2(true)}
+                onMouseLeave={() => setcard2(false)}
               >
                 <Link href="https://www.natura.cl/p/hidratante-facial-aclarador-fps-15-piel-oleosa-faces-50ml/91821cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=3">
                   <Image
                     style={{
-                      display: card3 ? "none" : "block",
+                      display: card2 ? "none" : "block",
                       width: "100%",
                       height: "auto",
                     }}
                     alt="card1"
-                    src={card_3_1}
+                    src={card_2_1}
                   />
                   <Image
                     style={{
-                      display: card3 ? "block" : "none",
+                      display: card2 ? "block" : "none",
                       width: "100%",
                       height: "auto",
                     }}
                     alt="card1"
-                    src={card_3_2}
+                    src={card_2_2}
                   />
                 </Link>
                 <Box
@@ -396,7 +267,7 @@ const index = () => {
                   href="https://www.natura.cl/p/hidratante-facial-aclarador-fps-15-piel-oleosa-faces-50ml/91821cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=3"
                 >
                   <Typography className={`${style.cardText}`} variant="body1">
-                    Hidratante Facial Piel Mixta a Oleosa Natura Faces
+                    Hidratante Facial Piel Normal a Seca Faces
                   </Typography>
                 </Link>
                 <Typography
@@ -419,140 +290,6 @@ const index = () => {
                   }}
                   variant="outlined"
                   href="https://www.natura.cl/p/hidratante-facial-aclarador-fps-15-piel-oleosa-faces-50ml/91821cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=3"
-                >
-                  COMPRAR
-                </Button>
-              </CardActions>
-            </Card>
-          </Box>
-          <Box
-            sx={{
-              margin: "25px 5px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <Card sx={{ maxWidth: 300 }}>
-              <Box
-                position="relative"
-                onMouseEnter={() => setcard4(true)}
-                onMouseLeave={() => setcard4(false)}
-              >
-                <Link href="https://www.natura.cl/p/mascara-de-pestana-incolora-faces-7ml/67647cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=4">
-                  <Image
-                    style={{
-                      display: card4 ? "none" : "block",
-                      width: "100%",
-                      height: "auto",
-                    }}
-                    alt="card1"
-                    src={card_4_1}
-                  />
-                  <Image
-                    style={{
-                      display: card4 ? "block" : "none",
-                      width: "100%",
-                      height: "auto",
-                    }}
-                    alt="card1"
-                    src={card_4_2}
-                  />
-                </Link>
-                <Box
-                  sx={{
-                    top: "0",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    width: "100%",
-                    padding: "1rem",
-                  }}
-                  position="absolute"
-                >
-                  <Chip
-                    label="Lleva 2 y paga 1"
-                    sx={{ background: "rgb(234, 110, 200)", color: "#fff" }}
-                  />
-                  <IconButton size="large">
-                    <FavoriteBorderOutlinedIcon />
-                  </IconButton>
-                </Box>
-              </Box>
-              <CardContent sx={{ height: "200px" }}>
-                <Box
-                  sx={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <Typography color="#777777" variant="body2">
-                    LUMINA
-                  </Typography>
-                  <Box
-                    sx={{
-                      display: "flex",
-                      alignItems: "center",
-                    }}
-                  >
-                    <IconButton size="large">
-                      <StarIcon sx={{ color: "#ffb74d" }} />
-                    </IconButton>
-                    <Typography color="#777777" variant="body2">
-                      3.0
-                    </Typography>
-                  </Box>
-                </Box>
-                <Box sx={{ height: "2.625rem" }}>
-                  <Link
-                    underline="none"
-                    href="https://www.natura.cl/p/mascara-de-pestana-incolora-faces-7ml/67647cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=4"
-                  >
-                    <Typography className={`${style.cardText}`} variant="body1">
-                      Máscara Fantástica Incolora Natura Faces
-                    </Typography>
-                  </Link>
-                </Box>
-                <Box sx={{ display: "flex", alignItems: "flex-end" }}>
-                  <Typography
-                    sx={{
-                      marginTop: "15px",
-                      textDecoration: "line-through",
-                      marginRight: "5px",
-                    }}
-                    variant="body1"
-                    color="#777777"
-                  >
-                    $4.990
-                  </Typography>
-                  <Chip
-                    size="small"
-                    label="-30%"
-                    sx={{
-                      background: "rgb(244, 171, 52)",
-                      color: "rgb(51, 51, 51)",
-                    }}
-                  />
-                </Box>
-                <Typography
-                  sx={{ fontWeight: "bold" }}
-                  variant="body1"
-                  color="#333333"
-                >
-                  $3.490
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button
-                  fullWidth
-                  sx={{
-                    margin: "0 10px",
-                    borderColor: "#f93",
-                    color: "#333333",
-                    fontWeight: "bold",
-                    "&:hover": { borderColor: "rgb(255,124,52)" },
-                  }}
-                  variant="outlined"
-                  href="https://www.natura.cl/p/mascara-de-pestana-incolora-faces-7ml/67647cl?listTitle=manual%20showcase%20-%20productos%20para%20descubrir&list_position=4"
                 >
                   COMPRAR
                 </Button>
@@ -589,14 +326,14 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/maquillaje/suaves-dimensiones">
+                <Link href="https://www.natura.cl/a-natura/mas-natura/meditacion-5-desafios-comunes-y-como-superarlos">
                   <Image
                     style={{
                       width: "100%",
                       height: "auto",
                     }}
                     alt="card1"
-                    src={card_5}
+                    src={card_3}
                   />
                 </Link>
                 <Box
@@ -611,7 +348,7 @@ const index = () => {
                 >
                   <Link
                     target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmaquillaje%2Fsuaves-dimensiones"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fmeditacion-5-desafios-comunes-y-como-superarlos"
                     sx={{
                       border: ".5px solid #fff",
                       padding: "8px",
@@ -623,7 +360,7 @@ const index = () => {
                   </Link>
                   <Link
                     target="_blank"
-                    href="https://twitter.com/share?text=SUAVES%20DIMENSIONES&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmaquillaje%2Fsuaves-dimensiones&via=natura_chile"
+                    href="https://www.twitter.com/share?text=MEDITACI%C3%93N:%205%20DESAF%C3%8DOS%20COMUNES%20Y%20C%C3%93MO%20SUPERARLOS&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fmeditacion-5-desafios-comunes-y-como-superarlos&via=natura_chile"
                     sx={{
                       border: ".5px solid #fff",
                       padding: "8px",
@@ -645,12 +382,12 @@ const index = () => {
                   }}
                 >
                   <Typography color="#777777" variant="body2">
-                    Maquillaje
+                    Más Natura
                   </Typography>
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/maquillaje/suaves-dimensiones"
+                  href="https://www.natura.cl/a-natura/mas-natura/meditacion-5-desafios-comunes-y-como-superarlos"
                 >
                   <Typography
                     color="#000"
@@ -658,7 +395,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    SUAVES DIMENSIONES
+                    MEDITACIÓN: 5 DESAFÍOS COMUNES Y CÓMO SUPERARLOS
                   </Typography>
                 </Link>
                 <Typography
@@ -666,14 +403,14 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  La evolución en #maquillaje: suaves dimensiones
+                  Cómo superar los principales desafíos a la hora de meditar
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
                   variant="body2"
                   color="#b4b4b4"
                 >
-                  29/11/2022
+                  28/11/2022
                 </Typography>
                 <Box
                   sx={{
@@ -684,7 +421,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/maquillaje/suaves-dimensiones"
+                    href="https://www.natura.cl/a-natura/mas-natura/meditacion-5-desafios-comunes-y-como-superarlos"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
@@ -711,14 +448,14 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/mas-natura/luz-azul-que-es-y-como-proteger-la-piel-de-sus-efectos">
+                <Link href="https://www.natura.cl/a-natura/piel/paso-a-paso-para-una-rutina-de-skincare">
                   <Image
                     style={{
                       width: "100%",
                       height: "auto",
                     }}
                     alt="card1"
-                    src={card_6}
+                    src={card_4}
                   />
                 </Link>
                 <Box
@@ -733,7 +470,7 @@ const index = () => {
                 >
                   <Link
                     target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fluz-azul-que-es-y-como-proteger-la-piel-de-sus-efectos"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fpiel%2Fpaso-a-paso-para-una-rutina-de-skincare"
                     sx={{
                       border: ".5px solid #fff",
                       padding: "8px",
@@ -745,7 +482,129 @@ const index = () => {
                   </Link>
                   <Link
                     target="_blank"
-                    href="https://twitter.com/share?text=LUZ%20AZUL:%20QU%C3%89%20ES%20Y%20C%C3%93MO%20PROTEGER%20LA%20PIEL%20DE%20SUS%20EFECTOS&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fluz-azul-que-es-y-como-proteger-la-piel-de-sus-efectos&via=natura_chile"
+                    href="https://twitter.com/share?text=PASO%20A%20PASO%20PARA%20UNA%20RUTINA%20DE%20SKINCARE&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fpiel%2Fpaso-a-paso-para-una-rutina-de-skincare&via=natura_chile"
+                    sx={{
+                      border: ".5px solid #fff",
+                      padding: "8px",
+                      cursor: "pointer",
+                      "&:hover": { background: "rgba(255,255,255,.4)" },
+                    }}
+                  >
+                    <TwitterIcon sx={{ color: "#fff" }} />
+                  </Link>
+                </Box>
+              </Box>
+              <CardContent sx={{ height: "200px" }}>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "flex-start",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <Typography color="#777777" variant="body2">
+                    Piel
+                  </Typography>
+                </Box>
+                <Link
+                  underline="none"
+                  href="https://www.natura.cl/a-natura/piel/paso-a-paso-para-una-rutina-de-skincare"
+                >
+                  <Typography
+                    color="#000"
+                    sx={{ "&:hover": { textDecoration: "underline" } }}
+                    className={`${style.card2Text}`}
+                    variant="body2"
+                  >
+                    PASO A PASO PARA UNA RUTINA DE SKINCARE
+                  </Typography>
+                </Link>
+                <Typography
+                  sx={{ fontWeight: "bold", marginTop: "15px" }}
+                  variant="body2"
+                  color="#636363"
+                >
+                  No busques más: tenemos la correcta rutina de skincare
+                </Typography>
+                <Typography
+                  sx={{ fontWeight: "bold", marginTop: "20px" }}
+                  variant="body2"
+                  color="#b4b4b4"
+                >
+                  29/11/2022
+                </Typography>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "flex-end",
+                    cursor: "pointer",
+                    marginTop: "5px",
+                  }}
+                >
+                  <Link
+                    href="https://www.natura.cl/a-natura/piel/paso-a-paso-para-una-rutina-de-skincare"
+                    underline="none"
+                    sx={{
+                      color: "#4a90e2",
+                      marginRight: "5px",
+                      "&:hover": { textDecoration: "underline" },
+                    }}
+                  >
+                    Lea más
+                  </Link>
+                  <ArrowForwardIcon
+                    fontSize="small"
+                    sx={{ color: "#4a90e2" }}
+                  />
+                </Box>
+              </CardContent>
+            </Card>
+          </Box>
+          <Box
+            sx={{
+              marginTop: "40px 30px",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
+              <Box position="relative">
+                <Link href="https://www.natura.cl/a-natura/mas-natura/meditacion-natura-conoce-nuestra-app-para-meditar">
+                  <Image
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                    }}
+                    alt="card1"
+                    src={card_5}
+                  />
+                </Link>
+                <Box
+                  sx={{
+                    top: "0",
+                    display: "flex",
+                    justifyContent: "flex-end",
+                    width: "100%",
+                    padding: "2rem",
+                  }}
+                  position="absolute"
+                >
+                  <Link
+                    target="_blank"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fmeditacion-natura-conoce-nuestra-app-para-meditar"
+                    sx={{
+                      border: ".5px solid #fff",
+                      padding: "8px",
+                      cursor: "pointer",
+                      "&:hover": { background: "rgba(255,255,255,.4)" },
+                    }}
+                  >
+                    <FacebookIcon sx={{ color: "#fff" }} />
+                  </Link>
+                  <Link
+                    target="_blank"
+                    href="https://twitter.com/share?text=MEDITACI%C3%93N%20NATURA:%20CONOCE%20NUESTRA%20APP%20PARA%20MEDITAR&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fmeditacion-natura-conoce-nuestra-app-para-meditar&via=natura_chile"
                     sx={{
                       border: ".5px solid #fff",
                       padding: "8px",
@@ -772,7 +631,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/mas-natura/luz-azul-que-es-y-como-proteger-la-piel-de-sus-efectos"
+                  href="https://www.natura.cl/a-natura/mas-natura/meditacion-natura-conoce-nuestra-app-para-meditar"
                 >
                   <Typography
                     color="#000"
@@ -780,7 +639,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    LUZ AZUL: QUÉ ES Y CÓMO PROTEGER LA PIEL DE SUS EFECTOS
+                    MEDITACIÓN NATURA: CONOCE NUESTRA APP PARA MEDITAR
                   </Typography>
                 </Link>
                 <Typography
@@ -788,8 +647,7 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  Para tu belleza, en defensa de tu piel y del medio ambiente:
-                  #AliadosNatura frente a la luz azul
+                  Regálate #bienestar: medita con nuestra App
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
@@ -807,130 +665,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/mas-natura/luz-azul-que-es-y-como-proteger-la-piel-de-sus-efectos"
-                    underline="none"
-                    sx={{
-                      color: "#4a90e2",
-                      marginRight: "5px",
-                      "&:hover": { textDecoration: "underline" },
-                    }}
-                  >
-                    Lea más
-                  </Link>
-                  <ArrowForwardIcon
-                    fontSize="small"
-                    sx={{ color: "#4a90e2" }}
-                  />
-                </Box>
-              </CardContent>
-            </Card>
-          </Box>
-          <Box
-            sx={{
-              margin: "40px 30px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
-              <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/maquillaje/como-comprar-maquillaje-por-internet-sin-errores">
-                  <Image
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                    }}
-                    alt="card1"
-                    src={card_7}
-                  />
-                </Link>
-                <Box
-                  sx={{
-                    top: "0",
-                    display: "flex",
-                    justifyContent: "flex-end",
-                    width: "100%",
-                    padding: "2rem",
-                  }}
-                  position="absolute"
-                >
-                  <Link
-                    target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmaquillaje%2Fcomo-comprar-maquillaje-por-internet-sin-errores"
-                    sx={{
-                      border: ".5px solid #fff",
-                      padding: "8px",
-                      cursor: "pointer",
-                      "&:hover": { background: "rgba(255,255,255,.4)" },
-                    }}
-                  >
-                    <FacebookIcon sx={{ color: "#fff" }} />
-                  </Link>
-                  <Link
-                    target="_blank"
-                    href="https://twitter.com/intent/tweet?text=C%C3%93MO%20COMPRAR%20MAQUILLAJE%20POR%20INTERNET%20SIN%20ERRORES&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmaquillaje%2Fcomo-comprar-maquillaje-por-internet-sin-errores&via=natura_chile"
-                    sx={{
-                      border: ".5px solid #fff",
-                      padding: "8px",
-                      cursor: "pointer",
-                      "&:hover": { background: "rgba(255,255,255,.4)" },
-                    }}
-                  >
-                    <TwitterIcon sx={{ color: "#fff" }} />
-                  </Link>
-                </Box>
-              </Box>
-              <CardContent sx={{ height: "200px" }}>
-                <Box
-                  sx={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "flex-start",
-                    marginBottom: "10px",
-                  }}
-                >
-                  <Typography color="#777777" variant="body2">
-                    Maquillaje
-                  </Typography>
-                </Box>
-                <Link
-                  underline="none"
-                  href="https://www.natura.cl/a-natura/maquillaje/como-comprar-maquillaje-por-internet-sin-errores"
-                >
-                  <Typography
-                    color="#000"
-                    sx={{ "&:hover": { textDecoration: "underline" } }}
-                    className={`${style.card2Text}`}
-                    variant="body2"
-                  >
-                    CÓMO COMPRAR MAQUILLAJE POR INTERNET SIN ERRORES
-                  </Typography>
-                </Link>
-                <Typography
-                  sx={{ fontWeight: "bold", marginTop: "15px" }}
-                  variant="body2"
-                  color="#636363"
-                >
-                  Cuatro consejos infalibles para comprar maquillaje por
-                  internet con éxito asegurado
-                </Typography>
-                <Typography
-                  sx={{ fontWeight: "bold", marginTop: "20px" }}
-                  variant="body2"
-                  color="#b4b4b4"
-                >
-                  29/11/2022
-                </Typography>
-                <Box
-                  sx={{
-                    display: "flex",
-                    alignItems: "flex-end",
-                    cursor: "pointer",
-                    marginTop: "5px",
-                  }}
-                >
-                  <Link
-                    href="https://www.natura.cl/a-natura/maquillaje/como-comprar-maquillaje-por-internet-sin-errores"
+                    href="https://www.natura.cl/a-natura/mas-natura/meditacion-natura-conoce-nuestra-app-para-meditar"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
