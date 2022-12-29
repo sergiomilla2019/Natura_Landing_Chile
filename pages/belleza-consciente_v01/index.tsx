@@ -32,9 +32,9 @@ import card_2 from "../../public/images/consciousBeauty_card_2.jpg";
 import card_3_1 from "../../public/images/consciousBeauty_card_3_1.jpg";
 import card_3_2 from "../../public/images/consciousBeauty_card_3_2.jpg";
 import card_4 from "../../public/images/consciousBeauty_card_4.jpg";
-import card_5 from "../../public/images/consciousBeauty_card_5.jpg";
-import card_6 from "../../public/images/consciousBeauty_card_6.jpg";
-import card_7 from "../../public/images/consciousBeauty_card_7.jpg";
+import card_5 from "../../public/images/5_BLOG_desktop_0.png";
+import card_6 from "../../public/images/6_BLOG_desktop.png";
+import card_7 from "../../public/images/sn_BLOG_desktop.png";
 
 const index = () => {
   const [card1, setcard1] = useState(false);
@@ -529,7 +529,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/mas-natura/regalos-con-sentido-elige-mas-consciente">
+                <Link href="https://www.natura.cl/a-natura/piel/ekos-de-que-hablamos-cuando-hablamos-de-biocosmetica-regenerativa">
                   <Image
                     style={{
                       width: "100%",
@@ -549,30 +549,8 @@ const index = () => {
                   }}
                   position="absolute"
                 >
-                  <Link
-                    target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fregalos-con-sentido-elige-mas-consciente"
-                    sx={{
-                      border: ".5px solid #fff",
-                      padding: "8px",
-                      cursor: "pointer",
-                      "&:hover": { background: "rgba(255,255,255,.4)" },
-                    }}
-                  >
-                    <FacebookIcon sx={{ color: "#fff" }} />
-                  </Link>
-                  <Link
-                    target="_blank"
-                    href="https://www.twitter.com/share?text=REGALOS%20CON%20SENTIDO:%20ELIGE%20M%C3%81S%20CONSCIENTE&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fregalos-con-sentido-elige-mas-consciente&via=natura_chile"
-                    sx={{
-                      border: ".5px solid #fff",
-                      padding: "8px",
-                      cursor: "pointer",
-                      "&:hover": { background: "rgba(255,255,255,.4)" },
-                    }}
-                  >
-                    <TwitterIcon sx={{ color: "#fff" }} />
-                  </Link>
+                  
+                  
                 </Box>
               </Box>
               <CardContent sx={{ height: "200px" }}>
@@ -590,7 +568,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/mas-natura/regalos-con-sentido-elige-mas-consciente"
+                  href="https://www.natura.cl/a-natura/piel/ekos-de-que-hablamos-cuando-hablamos-de-biocosmetica-regenerativa"
                 >
                   <Typography
                     color="#000"
@@ -598,7 +576,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    REGALOS CON SENTIDO: ELIGE MÁS CONSCIENTE
+                    EKOS: ¿DE QUÉ HABLAMOS CUANDO HABLAMOS DE BIOCOSMÉTICA REGENERATIVA?
                   </Typography>
                 </Link>
                 <Typography
@@ -606,14 +584,14 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  En cada regalo, un mundo de afectos
+                  ¿Escuchaste alguna vez este concepto? ¿Sabes cuáles son sus principales características? En este artículo prometemos contarte todo y lo más importante: cómo Natura abraza esta filosofía.
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
                   variant="body2"
                   color="#b4b4b4"
                 >
-                  29/11/2022
+                  21/12/2022
                 </Typography>
                 <Box
                   sx={{
@@ -624,7 +602,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/mas-natura/regalos-con-sentido-elige-mas-conscientes"
+                    href="https://www.natura.cl/a-natura/piel/ekos-de-que-hablamos-cuando-hablamos-de-biocosmetica-regenerativa"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
@@ -651,7 +629,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/mas-natura/ipl-nuestro-compromiso-real-contigo-la-sociedad-y-el-medio-ambiente">
+                <Link href="https://www.natura.cl/a-natura/sustentabilidad/nos-renovamos-nueva-formula-ekos-ahora-es-tres-veces-mas-potente">
                   <Image
                     style={{
                       width: "100%",
@@ -671,30 +649,7 @@ const index = () => {
                   }}
                   position="absolute"
                 >
-                  <Link
-                    target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fipl-nuestro-compromiso-real-contigo-la-sociedad-y-el-medio-ambiente"
-                    sx={{
-                      border: ".5px solid #fff",
-                      padding: "8px",
-                      cursor: "pointer",
-                      "&:hover": { background: "rgba(255,255,255,.4)" },
-                    }}
-                  >
-                    <FacebookIcon sx={{ color: "#fff" }} />
-                  </Link>
-                  <Link
-                    target="_blank"
-                    href="https://twitter.com/intent/tweet?text=IP&L%3A%20nuestro%20compromiso%20real%20contigo%2C%20la%20sociedad%20y%20el%20medio%20ambiente=&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fmas-natura%2Fipl-nuestro-compromiso-real-contigo-la-sociedad-y-el-medio-ambiente&via=natura_chile"
-                    sx={{
-                      border: ".5px solid #fff",
-                      padding: "8px",
-                      cursor: "pointer",
-                      "&:hover": { background: "rgba(255,255,255,.4)" },
-                    }}
-                  >
-                    <TwitterIcon sx={{ color: "#fff" }} />
-                  </Link>
+                  
                 </Box>
               </Box>
               <CardContent sx={{ height: "200px" }}>
@@ -712,7 +667,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/mas-natura/ipl-nuestro-compromiso-real-contigo-la-sociedad-y-el-medio-ambiente"
+                  href="https://www.natura.cl/a-natura/sustentabilidad/nos-renovamos-nueva-formula-ekos-ahora-es-tres-veces-mas-potente"
                 >
                   <Typography
                     color="#000"
@@ -720,8 +675,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    IP&L: nuestro compromiso real contigo, la sociedad y el
-                    medio ambiente
+                    NOS RENOVAMOS: NUEVA FÓRMULA EKOS, AHORA ES TRES VECES MÁS POTENTE
                   </Typography>
                 </Link>
                 <Typography
@@ -729,14 +683,14 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  ¿A dónde estamos, a dónde vamos?
+                  ¿La novedad? Aumentamos tres veces la concentración de óleos brutos de nuestro bioactivos. 
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
                   variant="body2"
                   color="#b4b4b4"
                 >
-                  29/11/2022
+                  21/12/2022
                 </Typography>
                 <Box
                   sx={{
@@ -747,7 +701,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/mas-natura/ipl-nuestro-compromiso-real-contigo-la-sociedad-y-el-medio-ambiente"
+                    href="https://www.natura.cl/a-natura/sustentabilidad/nos-renovamos-nueva-formula-ekos-ahora-es-tres-veces-mas-potente"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
@@ -774,7 +728,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/sustentabilidad/7-ideas-para-transformar-tu-rutina-de-belleza">
+                <Link href="https://www.natura.cl/a-natura/perfumeria/frescor-maracuya-de-ekos-la-fragancia-elegida-por-todos">
                   <Image
                     style={{
                       width: "100%",
@@ -794,30 +748,7 @@ const index = () => {
                   }}
                   position="absolute"
                 >
-                  <Link
-                    target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fsustentabilidad%2F7-ideas-para-transformar-tu-rutina-de-belleza"
-                    sx={{
-                      border: ".5px solid #fff",
-                      padding: "8px",
-                      cursor: "pointer",
-                      "&:hover": { background: "rgba(255,255,255,.4)" },
-                    }}
-                  >
-                    <FacebookIcon sx={{ color: "#fff" }} />
-                  </Link>
-                  <Link
-                    target="_blank"
-                    href="https://twitter.com/intent/tweet?text=7%20IDEAS%20PARA%20TRANSFORMAR%20TU%20RUTINA%20DE%20BELLEZA&url=https%3A%2F%2Fwww.natura.cl%2Fa-natura%2Fsustentabilidad%2F7-ideas-para-transformar-tu-rutina-de-belleza&via=natura_chile"
-                    sx={{
-                      border: ".5px solid #fff",
-                      padding: "8px",
-                      cursor: "pointer",
-                      "&:hover": { background: "rgba(255,255,255,.4)" },
-                    }}
-                  >
-                    <TwitterIcon sx={{ color: "#fff" }} />
-                  </Link>
+                  
                 </Box>
               </Box>
               <CardContent sx={{ height: "200px" }}>
@@ -835,7 +766,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/sustentabilidad/7-ideas-para-transformar-tu-rutina-de-belleza"
+                  href="https://www.natura.cl/a-natura/perfumeria/frescor-maracuya-de-ekos-la-fragancia-elegida-por-todos"
                 >
                   <Typography
                     color="#000"
@@ -843,7 +774,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    7 IDEAS PARA TRANSFORMAR TU RUTINA DE BELLEZA
+                    FRESCOR MARACUYÁ, DE EKOS: LA FRAGANCIA ELEGIDA POR TODOS
                   </Typography>
                 </Link>
                 <Typography
@@ -851,15 +782,14 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  Más belleza, menos residuos: 7 hábitos en armonía con el
-                  planeta
+                  Sobre gustos no hay nada escrito, y las fragancias no son la excepción. 
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
                   variant="body2"
                   color="#b4b4b4"
                 >
-                  29/11/2022
+                  21/12/2022
                 </Typography>
                 <Box
                   sx={{
@@ -870,7 +800,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/sustentabilidad/7-ideas-para-transformar-tu-rutina-de-belleza"
+                    href="https://www.natura.cl/a-natura/perfumeria/frescor-maracuya-de-ekos-la-fragancia-elegida-por-todos"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
