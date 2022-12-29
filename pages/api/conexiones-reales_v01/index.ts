@@ -90,6 +90,7 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
       },
     });
     res.redirect(302, "/Thanks");
+    //console.log(response)
     // return res.redirect(307, "https://www.natura.cl/");
     // res.status(200).json({ message: "Correcto" });
   } catch (err: any) {
