@@ -25,12 +25,12 @@ import style from "../../styles/ColorExpresion.module.css";
 
 import { Form } from "../../components/form";
 import banner from "../../public/images/realConextion_banner.jpg";
-import bannerOrange from "../../public/images/realConextion_bannerOrange.jpg";
+import bannerOrange from "../../public/images/CH_MiniBanner_regalo_+_envio.png";
 import card_1_1 from "../../public/images/realConextion_Card_1_1.jpg";
 import card_1_2 from "../../public/images/realConextion_Card_1_2.jpg";
 import card_2_1 from "../../public/images/realConextion_Card_2_1.jpg";
 import card_2_2 from "../../public/images/realConextion_Card_2_2.jpg";
-import card_3 from "../../public/images/realConextion_Card_3.jpg";
+import card_3 from "../../public/images/31_BLOG_desktop_nota3.png";
 import card_4 from "../../public/images/realConextion_Card_4.jpg";
 import card_5 from "../../public/images/realConextion_Card_5.jpg";
 
@@ -387,7 +387,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/mas-natura/meditacion-5-desafios-comunes-y-como-superarlos"
+                  href="https://www.natura.cl/a-natura/piel/prebioticos-lo-nuevo-en-cuidados-para-la-piel"
                 >
                   <Typography
                     color="#000"
@@ -395,7 +395,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    MEDITACIÓN: 5 DESAFÍOS COMUNES Y CÓMO SUPERARLOS
+                    PREBIÓTICOS: LO NUEVO EN CUIDADOS PARA LA PIEL
                   </Typography>
                 </Link>
                 <Typography
@@ -403,14 +403,14 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  Cómo superar los principales desafíos a la hora de meditar
+                  #GoodNews
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
                   variant="body2"
                   color="#b4b4b4"
                 >
-                  28/11/2022
+                  22/12/2022
                 </Typography>
                 <Box
                   sx={{
@@ -421,7 +421,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/mas-natura/meditacion-5-desafios-comunes-y-como-superarlos"
+                    href="https://www.natura.cl/a-natura/piel/prebioticos-lo-nuevo-en-cuidados-para-la-piel"
                     underline="none"
                     sx={{
                       color: "#4a90e2",

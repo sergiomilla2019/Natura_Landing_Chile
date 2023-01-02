@@ -25,7 +25,7 @@ import style from "../../styles/ColorExpresion.module.css";
 
 import { Form } from "../../components/form";
 import banner from "../../public/images/consciousBeauty_banner.jpg";
-import bannerOrange from "../../public/images/consciousBeauty_bannerOrange.jpg";
+import bannerOrange from "../../public/images/CH_MiniBanner_regalo_+_envio.png";
 import card_1_1 from "../../public/images/consciousBeauty_card_1_1.jpg";
 import card_1_2 from "../../public/images/consciousBeauty_card_1_2.jpg";
 import card_2 from "../../public/images/consciousBeauty_card_2.jpg";

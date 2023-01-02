@@ -25,7 +25,7 @@ import style from "../../styles/ColorExpresion.module.css";
 
 import { Form } from "../../components/form";
 import banner from "../../public/images/expresionColorBanner.png";
-import bannerOrange from "../../public/images/expresionColorBannerOrange.jpg";
+import bannerOrange from "../../public/images/CH_MiniBanner_regalo_+_envio.png";
 import card_1_1 from "../../public/images/expresionColorCard1_1.jpg";
 import card_1_2 from "../../public/images/expresionColorCard1_2.jpg";
 import card_2 from "../../public/images/expresionColorCard2_1.jpg";
@@ -33,7 +33,7 @@ import card_3_1 from "../../public/images/expresionColorCard3_1.jpg";
 import card_3_2 from "../../public/images/expresionColorCard3_2.jpg";
 import card_4_1 from "../../public/images/expresionColorCard4_1.jpg";
 import card_4_2 from "../../public/images/expresionColorCard4_2.jpg";
-import card_5 from "../../public/images/expresionColorCard5.jpg";
+import card_5 from "../../public/images/17_BLOG_desktop.png";
 import card_6 from "../../public/images/expresionColorCard6.jpg";
 import card_7 from "../../public/images/expresionColorCard7.jpg";
 
@@ -650,7 +650,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/maquillaje/suaves-dimensiones"
+                  href="https://www.natura.cl/a-natura/maquillaje/trendalert-verano-natural-lo-que-tus-labios-van-a-querer-llevar"
                 >
                   <Typography
                     color="#000"
@@ -658,7 +658,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    SUAVES DIMENSIONES
+                    #TRENDALERT: VERANO NATURAL, LO QUE TUS LABIOS VAN A QUERER LLEVAR
                   </Typography>
                 </Link>
                 <Typography
@@ -666,14 +666,14 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  La evolución en #maquillaje: suaves dimensiones
+                  La libertad para expresarte es un sí y en materia de #maquillaje
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
                   variant="body2"
                   color="#b4b4b4"
                 >
-                  29/11/2022
+                  21/12/2022
                 </Typography>
                 <Box
                   sx={{
@@ -684,7 +684,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/maquillaje/suaves-dimensiones"
+                    href="https://www.natura.cl/a-natura/maquillaje/trendalert-verano-natural-lo-que-tus-labios-van-a-querer-llevar"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
