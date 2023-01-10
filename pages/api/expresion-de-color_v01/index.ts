@@ -14,7 +14,7 @@ import { NextResponse } from "next/server";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const URL = `https://${process.env.SUBDOMAIN}.rest.marketingcloudapis.com/hub/v1/dataevents/key:${process.env.DATAEXTENSION_KEY_EDC}/rowset`;
+const URL = `https://${process.env.SUBDOMAIN}.rest.marketingcloudapis.com/hub/v1/dataevents/key:${process.env.DATAEXTENSION_KEY_EDC1}/rowset`;
 
 interface bodyReq {
   email: string;

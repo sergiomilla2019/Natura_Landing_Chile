@@ -47,6 +47,8 @@ export const Form = ({ path }: Props) => {
 
   const OnSendData = async (data: FormData) => {
     const { email, nombre, apellido, fecha, check1, check2 } = data;
+    //console.log(fecha, "<--data--")
+
     try {
       const response = await fetch(`/api/${path}`, {
         method: "POST",
@@ -60,7 +62,7 @@ export const Form = ({ path }: Props) => {
           utm_medium,
           utm_source,
         }),
-      });
+      }); 
       //console.log(response);
       window.location.assign("https://www.natura.cl/");
     } catch (error) {
@@ -151,10 +153,25 @@ export const Form = ({ path }: Props) => {
               >
                 FECHA DE NACIMIENTO
               </Typography>
-              <LocalizationProvider dateAdapter={AdapterDayjs}>
+              <TextField
+                sx={{ marginBottom: "25px" }}
+                fullWidth
+                id="fecha"
+                type="date"
+                variant="outlined"
+                {...register("fecha", {
+                  required: "Este campo es requerido...",
+                })}
+                required
+              />
+              {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
                 <DatePicker
                   value={fecha}
                   onChange={(newValue) => {
+                    console.log(newValue?.d, "--componentefecha--")
+                    console.log(AdapterDayjs, "--componentefecha--")
+
+                    AdapterDayjs
                     setfecha(newValue);
                   }}
                   renderInput={(params) => (
@@ -162,6 +179,7 @@ export const Form = ({ path }: Props) => {
                   )}
                 />
               </LocalizationProvider>
+              */}
               <FormControlLabel
                 sx={{ marginBottom: "25px", width: "100%", marginTop: "25px" }}
                 control={

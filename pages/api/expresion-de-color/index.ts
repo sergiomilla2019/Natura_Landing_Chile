@@ -48,6 +48,8 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
     origin: "*",
     optionsSuccessStatus: 200,
   });
+
+
   const {
     email,
     nombre,
