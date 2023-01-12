@@ -9,8 +9,8 @@ export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url:URL) => {
-      window.gtag('config', process.env.NEXT_PUBLIC_GA_ID, {
-        page_path: url,
+      window.gtag('consent', process.env.NEXT_PUBLIC_GA_ID, {
+        page_path: url, 
       });
     }
     router.events.on('routeChangeComplete', handleRouteChange);
