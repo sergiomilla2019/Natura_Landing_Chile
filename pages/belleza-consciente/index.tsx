@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Image from "next/image";
 
+
 import {
   Box,
   Button,
@@ -42,6 +43,7 @@ const index = () => {
   const [card4, setcard4] = useState(false);
   return (
     <>
+
       <Box sx={{ width: "100%" }}>
         <Image
           alt=""
