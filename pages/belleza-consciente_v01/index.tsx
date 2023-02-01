@@ -32,9 +32,9 @@ import card_2 from "../../public/images/consciousBeauty_card_2.jpg";
 import card_3_1 from "../../public/images/consciousBeauty_card_3_1.jpg";
 import card_3_2 from "../../public/images/consciousBeauty_card_3_2.jpg";
 import card_4 from "../../public/images/consciousBeauty_card_4.jpg";
-import card_5 from "../../public/images/5_BLOG_desktop_0.png";
-import card_6 from "../../public/images/6_BLOG_desktop.png";
-import card_7 from "../../public/images/sn_BLOG_desktop.png";
+import card_5 from "../../public/images/13-BLOG-desktop.png";
+import card_6 from "../../public/images/12-BLOG-desktop.png";
+import card_7 from "../../public/images/34-BLOG-desktop.png";
 
 const index = () => {
   const [card1, setcard1] = useState(false);
@@ -568,7 +568,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/piel/ekos-de-que-hablamos-cuando-hablamos-de-biocosmetica-regenerativa"
+                  href="mas-natura/belleza-consciente/Biocosmetica-regenerativa-elige-productos-de-belleza-vegana"
                 >
                   <Typography
                     color="#000"
@@ -576,7 +576,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    EKOS: ¿DE QUÉ HABLAMOS CUANDO HABLAMOS DE BIOCOSMÉTICA REGENERATIVA?
+                    Biocosmética regenerativa: elige productos de belleza vegana
                   </Typography>
                 </Link>
                 <Typography
@@ -584,7 +584,7 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  ¿Escuchaste alguna vez este concepto? ¿Sabes cuáles son sus principales características? En este artículo prometemos contarte todo y lo más importante: cómo Natura abraza esta filosofía.
+                  #TrendAlert: los consumidores piden calidad y conocimiento sobre el origen de los componentes en los cosméticos que utilizan.
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
@@ -602,7 +602,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/piel/ekos-de-que-hablamos-cuando-hablamos-de-biocosmetica-regenerativa"
+                    href="mas-natura/belleza-consciente/Biocosmetica-regenerativa-elige-productos-de-belleza-vegana"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
@@ -629,7 +629,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/sustentabilidad/nos-renovamos-nueva-formula-ekos-ahora-es-tres-veces-mas-potente">
+                <Link href="mas-natura/belleza-consciente/Haz-la-diferencia-seis-motivos-para-decirle-si-a-los-envases-reutilizables">
                   <Image
                     style={{
                       width: "100%",
@@ -667,7 +667,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/sustentabilidad/nos-renovamos-nueva-formula-ekos-ahora-es-tres-veces-mas-potente"
+                  href="mas-natura/belleza-consciente/Haz-la-diferencia-seis-motivos-para-decirle-si-a-los-envases-reutilizables"
                 >
                   <Typography
                     color="#000"
@@ -675,7 +675,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    NOS RENOVAMOS: NUEVA FÓRMULA EKOS, AHORA ES TRES VECES MÁS POTENTE
+                    Haz la diferencia: seis motivos para decirle sí a los envases reutilizables
                   </Typography>
                 </Link>
                 <Typography
@@ -683,7 +683,7 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  ¿La novedad? Aumentamos tres veces la concentración de óleos brutos de nuestro bioactivos. 
+                  Podemos contarte más de seis razones clave para decirle no al plástico y sí a los envases reciclados, recargables y reciclables. 
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
@@ -701,7 +701,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/sustentabilidad/nos-renovamos-nueva-formula-ekos-ahora-es-tres-veces-mas-potente"
+                    href="mas-natura/belleza-consciente/Haz-la-diferencia-seis-motivos-para-decirle-si-a-los-envases-reutilizables"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
@@ -728,7 +728,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/perfumeria/frescor-maracuya-de-ekos-la-fragancia-elegida-por-todos">
+                <Link href="mas-natura/belleza-consciente/Tres-consejos-infalibles-para-guardar-tus-fragancias">
                   <Image
                     style={{
                       width: "100%",
@@ -766,7 +766,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/perfumeria/frescor-maracuya-de-ekos-la-fragancia-elegida-por-todos"
+                  href="mas-natura/belleza-consciente/Tres-consejos-infalibles-para-guardar-tus-fragancias"
                 >
                   <Typography
                     color="#000"
@@ -774,7 +774,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    FRESCOR MARACUYÁ, DE EKOS: LA FRAGANCIA ELEGIDA POR TODOS
+                    Tres consejos infalibles para guardar tus fragancias
                   </Typography>
                 </Link>
                 <Typography
@@ -782,7 +782,7 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  Sobre gustos no hay nada escrito, y las fragancias no son la excepción. 
+                  
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
@@ -800,7 +800,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/perfumeria/frescor-maracuya-de-ekos-la-fragancia-elegida-por-todos"
+                    href="mas-natura/belleza-consciente/Tres-consejos-infalibles-para-guardar-tus-fragancias"
                     underline="none"
                     sx={{
                       color: "#4a90e2",

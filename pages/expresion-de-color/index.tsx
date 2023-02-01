@@ -33,9 +33,9 @@ import card_3_1 from "../../public/images/expresionColorCard3_1.jpg";
 import card_3_2 from "../../public/images/expresionColorCard3_2.jpg";
 import card_4_1 from "../../public/images/expresionColorCard4_1.jpg";
 import card_4_2 from "../../public/images/expresionColorCard4_2.jpg";
-import card_5 from "../../public/images/17_BLOG_desktop.png";
-import card_6 from "../../public/images/expresionColorCard6.jpg";
-import card_7 from "../../public/images/expresionColorCard7.jpg";
+import card_5 from "../../public/images/23-BLOG-desktop.png";
+import card_6 from "../../public/images/18-BLOG-desktop.png";
+import card_7 from "../../public/images/21--BLOG-desktop.png";
 
 const index = () => {
   const [card1, setcard1] = useState(false);
@@ -589,7 +589,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/maquillaje/suaves-dimensiones">
+                <Link href="mas-natura/expresion-de-color/TrendAlert-verano-natural-lo-que-tus-labios-van-a-querer-llevar">
                   <Image
                     style={{
                       width: "100%",
@@ -650,7 +650,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/maquillaje/trendalert-verano-natural-lo-que-tus-labios-van-a-querer-llevar"
+                  href="mas-natura/expresion-de-color/TrendAlert-verano-natural-lo-que-tus-labios-van-a-querer-llevar"
                 >
                   <Typography
                     color="#000"
@@ -684,7 +684,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/maquillaje/trendalert-verano-natural-lo-que-tus-labios-van-a-querer-llevar"
+                    href="mas-natura/expresion-de-color/TrendAlert-verano-natural-lo-que-tus-labios-van-a-querer-llevar"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
@@ -711,7 +711,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/mas-natura/luz-azul-que-es-y-como-proteger-la-piel-de-sus-efectos">
+                <Link href="mas-natura/expresion-de-color/TeamGanador-Chronos-Acqua-Biohidratante-Renovador-y-Cremas-Anti-Senales">
                   <Image
                     style={{
                       width: "100%",
@@ -772,7 +772,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/mas-natura/luz-azul-que-es-y-como-proteger-la-piel-de-sus-efectos"
+                  href="mas-natura/expresion-de-color/TeamGanador-Chronos-Acqua-Biohidratante-Renovador-y-Cremas-Anti-Senales"
                 >
                   <Typography
                     color="#000"
@@ -780,7 +780,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    LUZ AZUL: QUÉ ES Y CÓMO PROTEGER LA PIEL DE SUS EFECTOS
+                    TeamGanador: Chronos Acqua Biohidratante Renovador y Cremas Anti-Señales
                   </Typography>
                 </Link>
                 <Typography
@@ -788,8 +788,7 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  Para tu belleza, en defensa de tu piel y del medio ambiente:
-                  #AliadosNatura frente a la luz azul
+                  ¿Cuál es el secreto de una rutina de belleza exitosa?
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
@@ -807,7 +806,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/mas-natura/luz-azul-que-es-y-como-proteger-la-piel-de-sus-efectos"
+                    href="mas-natura/expresion-de-color/TeamGanador-Chronos-Acqua-Biohidratante-Renovador-y-Cremas-Anti-Senales"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
@@ -834,7 +833,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/maquillaje/como-comprar-maquillaje-por-internet-sin-errores">
+                <Link href="mas-natura/expresion-de-color/Hidratacion-de-la-piel-los-mitos-y-las-verdades-que-tienes-que-saber">
                   <Image
                     style={{
                       width: "100%",
@@ -890,12 +889,12 @@ const index = () => {
                   }}
                 >
                   <Typography color="#777777" variant="body2">
-                    Maquillaje
+                    Hidratación
                   </Typography>
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/maquillaje/como-comprar-maquillaje-por-internet-sin-errores"
+                  href="mas-natura/expresion-de-color/Hidratacion-de-la-piel-los-mitos-y-las-verdades-que-tienes-que-saber"
                 >
                   <Typography
                     color="#000"
@@ -903,7 +902,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    CÓMO COMPRAR MAQUILLAJE POR INTERNET SIN ERRORES
+                    Hidratación de la piel: los mitos y las verdades que tienes que saber
                   </Typography>
                 </Link>
                 <Typography
@@ -911,8 +910,7 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  Cuatro consejos infalibles para comprar maquillaje por
-                  internet con éxito asegurado
+                  #RompamosMitos: qué sí y que no con respecto a la hidratación de la piel.
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
@@ -930,7 +928,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/maquillaje/como-comprar-maquillaje-por-internet-sin-errores"
+                    href="mas-natura/expresion-de-color/Hidratacion-de-la-piel-los-mitos-y-las-verdades-que-tienes-que-saber"
                     underline="none"
                     sx={{
                       color: "#4a90e2",

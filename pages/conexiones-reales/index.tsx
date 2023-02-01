@@ -30,9 +30,9 @@ import card_1_1 from "../../public/images/realConextion_Card_1_1.jpg";
 import card_1_2 from "../../public/images/realConextion_Card_1_2.jpg";
 import card_2_1 from "../../public/images/realConextion_Card_2_1.jpg";
 import card_2_2 from "../../public/images/realConextion_Card_2_2.jpg";
-import card_3 from "../../public/images/31_BLOG_desktop_nota3.png";
-import card_4 from "../../public/images/realConextion_Card_4.jpg";
-import card_5 from "../../public/images/realConextion_Card_5.jpg";
+import card_3 from "../../public/images/34-BLOG-desktop.png";
+import card_4 from "../../public/images/35-BLOG-desktop.png";
+import card_5 from "../../public/images/33-BLOG-desktop.png";
 
 const index = () => {
   const [card1, setcard1] = useState(false);
@@ -326,7 +326,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/mas-natura/meditacion-5-desafios-comunes-y-como-superarlos">
+                <Link href="mas-natura/conexiones-reales/Humor-es-alegria-y-diversion-para-tu-dia">
                   <Image
                     style={{
                       width: "100%",
@@ -387,7 +387,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/piel/prebioticos-lo-nuevo-en-cuidados-para-la-piel"
+                  href="mas-natura/conexiones-reales/Humor-es-alegria-y-diversion-para-tu-dia"
                 >
                   <Typography
                     color="#000"
@@ -395,7 +395,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    PREBIÓTICOS: LO NUEVO EN CUIDADOS PARA LA PIEL
+                    Humor es alegría y diversión para tu día
                   </Typography>
                 </Link>
                 <Typography
@@ -403,7 +403,7 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  #GoodNews
+                  
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
@@ -421,7 +421,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/piel/prebioticos-lo-nuevo-en-cuidados-para-la-piel"
+                    href="mas-natura/conexiones-reales/Humor-es-alegria-y-diversion-para-tu-dia"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
@@ -448,7 +448,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/piel/paso-a-paso-para-una-rutina-de-skincare">
+                <Link href="mas-natura/conexiones-reales/Autocuidado-los-7-imprescindibles-de-Natura">
                   <Image
                     style={{
                       width: "100%",
@@ -509,7 +509,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/piel/paso-a-paso-para-una-rutina-de-skincare"
+                  href="mas-natura/conexiones-reales/Autocuidado-los-7-imprescindibles-de-Natura"
                 >
                   <Typography
                     color="#000"
@@ -517,7 +517,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    PASO A PASO PARA UNA RUTINA DE SKINCARE
+                    #Autocuidado: los 7 imprescindibles de #Natura
                   </Typography>
                 </Link>
                 <Typography
@@ -525,7 +525,7 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  No busques más: tenemos la correcta rutina de skincare
+                  Los 7 #ElegidosNatura para ti y para tu ritual de belleza.
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
@@ -543,7 +543,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/piel/paso-a-paso-para-una-rutina-de-skincare"
+                    href="mas-natura/conexiones-reales/Autocuidado-los-7-imprescindibles-de-Natura"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
@@ -570,7 +570,7 @@ const index = () => {
           >
             <Card sx={{ maxWidth: 375, minHeight: "30rem", boxShadow: "none" }}>
               <Box position="relative">
-                <Link href="https://www.natura.cl/a-natura/mas-natura/meditacion-natura-conoce-nuestra-app-para-meditar">
+                <Link href="mas-natura/conexiones-reales/Cabellos-tenidos-la-clave-de-los-3-pasos-en-la-rutina-de-cuidados">
                   <Image
                     style={{
                       width: "100%",
@@ -631,7 +631,7 @@ const index = () => {
                 </Box>
                 <Link
                   underline="none"
-                  href="https://www.natura.cl/a-natura/mas-natura/meditacion-natura-conoce-nuestra-app-para-meditar"
+                  href="mas-natura/conexiones-reales/Cabellos-tenidos-la-clave-de-los-3-pasos-en-la-rutina-de-cuidados"
                 >
                   <Typography
                     color="#000"
@@ -639,7 +639,7 @@ const index = () => {
                     className={`${style.card2Text}`}
                     variant="body2"
                   >
-                    MEDITACIÓN NATURA: CONOCE NUESTRA APP PARA MEDITAR
+                    Cabellos teñidos: la clave de los 3 pasos en la rutina de cuidados
                   </Typography>
                 </Link>
                 <Typography
@@ -647,7 +647,7 @@ const index = () => {
                   variant="body2"
                   color="#636363"
                 >
-                  Regálate #bienestar: medita con nuestra App
+                  #Cabello
                 </Typography>
                 <Typography
                   sx={{ fontWeight: "bold", marginTop: "20px" }}
@@ -665,7 +665,7 @@ const index = () => {
                   }}
                 >
                   <Link
-                    href="https://www.natura.cl/a-natura/mas-natura/meditacion-natura-conoce-nuestra-app-para-meditar"
+                    href="mas-natura/conexiones-reales/Cabellos-tenidos-la-clave-de-los-3-pasos-en-la-rutina-de-cuidados"
                     underline="none"
                     sx={{
                       color: "#4a90e2",
