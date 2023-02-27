@@ -49,6 +49,9 @@ export const Form = ({ path }: Props) => {
     const { email, nombre, apellido, fecha, check1, check2 } = data;
     //console.log(fecha, "<--data--")
 
+    let todayDate = new Date().toISOString().slice(0, 10);
+    //console.log(todayDate);
+
     try {
       const response = await fetch(`/api/${path}`, {
         method: "POST",
@@ -61,6 +64,7 @@ export const Form = ({ path }: Props) => {
           check2,
           utm_medium,
           utm_source,
+          todayDate
         }),
       }); 
       //console.log(response);

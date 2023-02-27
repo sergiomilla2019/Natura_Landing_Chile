@@ -25,6 +25,7 @@ interface bodyReq {
   check2: boolean;
   utm_medium: string;
   utm_source: string;
+  todayDate: string;
 }
 
 type Data = { message: string } | bodyReq;
@@ -59,6 +60,7 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
     check2,
     utm_medium,
     utm_source,
+    todayDate,
   }: bodyReq = JSON.parse(req.body);
 
   const dataBody = [
@@ -75,6 +77,7 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
         EMAIL: email,
         UTM_MEDIUM: utm_medium,
         UTM_SOURCE: utm_source,
+        FECHA_REGISTRO: todayDate,
       },
     },
   ];
