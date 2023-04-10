@@ -19,6 +19,7 @@ const URL = `https://${process.env.SUBDOMAIN}.rest.marketingcloudapis.com/hub/v1
 interface bodyReq {
   email: string;
   comentario: string;
+  pais: string;
 }
 
 type Data = { message: string } | bodyReq;
@@ -45,6 +46,7 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
   const {
     email,
     comentario,
+    pais = "Chile",
   }: bodyReq = JSON.parse(req.body);
 
   const dataBody = [
@@ -55,6 +57,7 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
       values: {
         EMAIL: email,
         COMENTARIO: comentario,
+        PAIS: pais,
       },
     },
   ];
