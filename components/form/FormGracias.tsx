@@ -43,10 +43,11 @@ export const FormGracias = ({ path }: Props) => {
 
   const OnSendData = async (data: FormData) => {
     const { comentario } = data;
-    //console.log({ comentario, email }, "<--data--")
     if(email === ''){
       email = 'sinemail@gmail.com'
     }
+
+    console.log({ comentario, email }, "<--data--")
 
     try {
       const response = await fetch(`/api/${path}`, {
@@ -56,8 +57,8 @@ export const FormGracias = ({ path }: Props) => {
           comentario,
         }),
       }); 
-      //console.log(response);
-      window.location.assign("https://www.natura.cl/");
+      console.log(response);
+      //window.location.assign("https://www.natura.cl/");
     } catch (error) {
       console.log("Front error: ", error);
     }
