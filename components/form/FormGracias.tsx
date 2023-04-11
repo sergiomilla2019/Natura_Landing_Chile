@@ -58,7 +58,7 @@ export const FormGracias = ({ path }: Props) => {
         }),
       }); 
       console.log(response);
-      //window.location.assign("https://www.natura.cl/");
+      window.location.assign("https://www.natura.cl/");
     } catch (error) {
       console.log("Front error: ", error);
     }
