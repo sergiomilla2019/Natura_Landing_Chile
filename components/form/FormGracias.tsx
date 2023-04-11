@@ -34,7 +34,7 @@ type FormData = {
 export const FormGracias = ({ path }: Props) => {
   const router = useRouter();
   //const [fecha, setfecha] = useState<Dayjs | null>(null);
-  let { email } = router.query;
+  let { email='sinemail@gmail.com' } = router.query;
   const {
     register,
     handleSubmit,
