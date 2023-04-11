@@ -34,7 +34,7 @@ type FormData = {
 export const FormGracias = ({ path }: Props) => {
   const router = useRouter();
   //const [fecha, setfecha] = useState<Dayjs | null>(null);
-  const { email } = router.query;
+  let { email } = router.query;
   const {
     register,
     handleSubmit,
@@ -43,7 +43,10 @@ export const FormGracias = ({ path }: Props) => {
 
   const OnSendData = async (data: FormData) => {
     const { comentario } = data;
-    console.log({ comentario, email }, "<--data--")
+    //console.log({ comentario, email }, "<--data--")
+    if(email === ''){
+      email = 'sinemail@gmail.com'
+    }
 
     try {
       const response = await fetch(`/api/${path}`, {
