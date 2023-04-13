@@ -20,6 +20,7 @@ interface bodyReq {
   email: string;
   comentario: string;
   pais: string;
+  experiencia: string;
 }
 
 type Data = { message: string } | bodyReq;
@@ -47,6 +48,7 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
     email,
     comentario,
     pais = "Chile",
+    experiencia,
   }: bodyReq = JSON.parse(req.body);
 
   const dataBody = [
@@ -58,6 +60,7 @@ const BNrouter = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
         EMAIL: email,
         COMENTARIO: comentario,
         PAIS: pais,
+        EXPERIENCIA: experiencia,
       },
     },
   ];
